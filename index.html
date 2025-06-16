@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LinkedIn Profile Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class', // or 'media'
+      theme: {
+        extend: {
+          colors: {
+            linkedin: {
+              blue: '#0A66C2',
+              'blue-light': '#378fe9',
+              'gray-text': '#00000099',
+              'gray-icon': '#00000099',
+              'gray-border': '#00000024',
+              'gray-background': '#f3f2ef',
+              'dark-background': '#1d2226',
+              'dark-card': '#2a2e34',
+              'dark-text': '#ffffffd9',
+              'dark-secondary-text': '#ffffff99',
+              'dark-border': '#424242',
+            }
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-linkedin-gray-background dark:bg-linkedin-dark-background">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
+    

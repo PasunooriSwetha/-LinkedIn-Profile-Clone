@@ -1,0 +1,5 @@
+{
+  "name": "Copy of LinkedIn Profile Clone",
+  "description": "A React application that replicates a functional and responsive LinkedIn profile UI, built with TypeScript and Tailwind CSS. It features editable sections, a theme switcher, and various profile components.",
+  "requestFramePermissions": []
+}
